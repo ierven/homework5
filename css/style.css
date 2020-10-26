@@ -155,10 +155,18 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav_links{
   /*Your code here again.*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav_item a{
@@ -178,6 +186,7 @@ header{
   /* Cards! */
   .card {
     /*Your  code here again.*/
+    flex-basis: 225px;
   }
 
   .card_big{
@@ -188,10 +197,15 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .nav_links{
     /*Your code here again.*/  
+    display: flex;
+    flex-direction: row;
   }
 
   .nav_item a{
@@ -205,6 +219,9 @@ header{
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
+  body{
+    background-image: none; 
+  }
 }
 
 /*Your code here again.*/ 
