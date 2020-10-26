@@ -54,17 +54,21 @@ footer{
 /*Keyframes for animation*/
 
 @-webkit-keyframes logo_wiggle{
-  /*Your code here.*/
+  from {width: 25px;}
+  to {width: 420px;}
 
 }
 
 @keyframes logo_wiggle{
-  /*Your code here.*/
+   from {width: 25px;}
+  to {width: 420px;}
+
 
 } 
 
 #logo{
-   /*Your code here.*/
+  animation-name: logo_wiggle;
+  animation-duration: 15s;
  
 }
 
@@ -73,6 +77,10 @@ footer{
     min-height: 500px;
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   
 }
 
@@ -83,6 +91,7 @@ footer{
   padding: 0 0 50px 0;
   /*Your code here.*/
   /*Take a look at flex-basis*/
+  flex-basis: 400px;
 
 }
 
@@ -129,6 +138,10 @@ footer{
 .gallery{
   min-height: 600px;
   /*Your code here again.*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery > img{
