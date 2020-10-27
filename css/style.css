@@ -156,17 +156,14 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .nav_links{
   /*Your code here again.*/
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .nav_item a{
@@ -221,6 +218,12 @@ header{
   /*You will want four selectors*/  
   body{
     background-image: none; 
+  }
+  .gallery, #gallery{
+    display: none;
+  }
+  .pricing{
+    align-items: flex-start;
   }
 }
 
